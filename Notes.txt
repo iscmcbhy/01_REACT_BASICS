@@ -1,0 +1,34 @@
+Things to remember in REACT
+> Components
+> Views
+> Parent Component - enclose all the component
+> Two main types of components
+>> Functional Components - class based components, ability to know what's happening in the app, record of data
+>> 
+
+// const getYear = () => {
+//     const newDate = new Date();
+//     return newDate.getFullYear();
+// }
+
+// const user = {
+//     name: 'Isaac',
+//     last: 'Macabuhay',
+//     age: 16
+// }
+
+// const Header = () => {
+//     return <header>
+//         <div>Logo</div>
+//         <input type='text'/>
+//     </header>
+// }
+
+// Other method
+// var header == {
+//     render: function(){
+//         return ''
+//     }
+// }
+
+>> Distructuring
