@@ -10,6 +10,7 @@ Things to remember in REACT
 >> Props = ''
 >> States is useful, but always avoid class components with states if possible because it uses a lot of memory and hard to maintain
 >>> Use functional component if possible
+>> Use snippets
 
 // const getYear = () => {
 //     const newDate = new Date();

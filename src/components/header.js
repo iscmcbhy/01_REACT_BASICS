@@ -5,7 +5,6 @@ import '../css/styles.css'
 class Header extends Component {
     // This is used because the states is already defined if used the extends
     state = {
-        title: 'The Keywords are: ',
         keywords: ''
     }
     // Fat arrow Functions from ES6 for 'this' keyword to work in the class
@@ -19,7 +18,6 @@ class Header extends Component {
 
     // rendering the jsx
     render(){
-        console.log(this.state.keywords)
         return (
             <header>
                 <div 
