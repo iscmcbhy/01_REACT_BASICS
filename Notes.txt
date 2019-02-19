@@ -4,7 +4,7 @@ Things to remember in REACT
 > Parent Component - enclose all the component
 > Two main types of components
 >> Functional Components - class based components, ability to know what's happening in the app, record of data
->> 
+>> Class Based Components - have interaction with other js, components
 
 // const getYear = () => {
 //     const newDate = new Date();
@@ -30,5 +30,22 @@ Things to remember in REACT
 //         return ''
 //     }
 // }
+//
+//let styles = {
+//            header:{
+//                background: '#03a9f4'
+//            },
+//            // Anton font doesnt work so I changed it to fantasy
+//            logo:{
+//                color:'#fff',
+//                fontFamily:'fantasy',
+//                textAlign:'center'
+//            }
+        }
 
 >> Distructuring
+
+
+
+>>>> Sources:
+>>>>>> https://medium.com/@Zwenza/functional-vs-class-components-in-react-231e3fbd7108 "functional component vs class based component"
