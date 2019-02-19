@@ -5,6 +5,11 @@ Things to remember in REACT
 > Two main types of components
 >> Functional Components - class based components, ability to know what's happening in the app, record of data
 >> Class Based Components - have interaction with other js, components
+>> super() = 'Bringing all the constructor who extends' , 'Bringing all the properties of parent class'
+>> bind(this) = 'Binding the function to parent'
+>> Props = ''
+>> States is useful, but always avoid class components with states if possible because it uses a lot of memory and hard to maintain
+>>> Use functional component if possible
 
 // const getYear = () => {
 //     const newDate = new Date();
@@ -30,7 +35,7 @@ Things to remember in REACT
 //         return ''
 //     }
 // }
-//
+
 //let styles = {
 //            header:{
 //                background: '#03a9f4'
@@ -41,7 +46,30 @@ Things to remember in REACT
 //                fontFamily:'fantasy',
 //                textAlign:'center'
 //            }
-        }
+//        }
+
+// ES5
+//function one(name){
+//    console.log(name)
+//}
+//
+//function two(name){
+//    one(name)
+//}
+
+// Lesson for states
+// state = {
+//     keywords: 'Hello'
+// }
+
+// Using of states in a constructor
+    // constructor(props){
+    //     super(props)
+
+    //     this.state = {
+    //         keywords: 'Hello'
+    //     }
+    // }
 
 >> Distructuring
 
@@ -49,3 +77,4 @@ Things to remember in REACT
 
 >>>> Sources:
 >>>>>> https://medium.com/@Zwenza/functional-vs-class-components-in-react-231e3fbd7108 "functional component vs class based component"
+>>>>>> https://reactjs.org/docs/events.html "Documentation of React Events"
