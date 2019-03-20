@@ -9,8 +9,6 @@ class Header extends Component {
     }
     // Fat arrow Functions from ES6 for 'this' keyword to work in the class
     inputChangeHandler = (event) =>{
-        //console.log(event.target.value)
-        //console.log('Try')
         this.setState({
             keywords: event.target.value
         })
@@ -23,12 +21,11 @@ class Header extends Component {
                 <div 
                     className='logo'
                     onClick={this.inputChangeHandler}
-                    >Logo</div>
+                    >Logo
+                </div>
                 <input 
                     type='text' 
                     onChange={this.inputChangeHandler}/>
-                <div>{this.state.title}</div>
-                <div>{this.state.keywords}</div>
             </header>
         )
     }

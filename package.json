@@ -4,6 +4,7 @@
   "private": true,
   "dependencies": {
     "git": "^0.1.5",
+    "glamor": "^2.20.40",
     "json": "^9.0.6",
     "react": "^16.8.1",
     "react-dom": "^16.8.1",

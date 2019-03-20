@@ -5,12 +5,24 @@ import JSON from './db.json';
 
 // Components
 import Header from './components/header';
+import NewsList from './components/news_list';
 
 class App extends Component {
+
+    state = {
+        news:JSON
+    }
+
     render(){
+        //console.log(this.state.news)
         return (
             <div>
                 <Header/>
+                <NewsList news={this.state.news}>
+                    <h2>
+                        The News are:
+                    </h2>
+                </NewsList>
             </div>
         )
     }
